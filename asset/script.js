@@ -133,7 +133,7 @@ btnPlus.addEventListener("click", () => {
     mt.style.display = "none";
     cartntf.innerHTML = cartV.innerHTML;
     cartSpan.innerHTML = cartV.innerHTML;
-    carTotal.innerHTML = "$" + cartSpan.innerHTML * 125;
+    carTotal.innerHTML = "$" + cartSpan.innerHTML * 125  + ".00";
   }
 });
 
