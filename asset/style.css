@@ -409,7 +409,8 @@ main .cart #cart-add-btn:hover {
   position: fixed;
 }
 .hero-wrapper {
-  display: none;
+  opacity: 0;
+  visibility: hidden;
   transition: 0.2s all;
 }
 .hero-wrapper1 {
