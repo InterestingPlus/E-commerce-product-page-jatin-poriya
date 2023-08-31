@@ -482,6 +482,7 @@ footer {
   margin-bottom: 50px;
 }
 footer p {
+  text-align: center;
   font-weight: 700;
   font-size: 15px !important;
   color: var(--Grayish-blue);
@@ -493,4 +494,8 @@ footer a {
 }
 footer a:hover {
   color: var(--Very-dark-blue) !important;
+}
+
+button i {
+  display: none;
 }
