@@ -15,20 +15,10 @@
 
     <title>Frontend Mentor | E-commerce product page</title>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
 
-    <nav>
+<nav>
       <div class="right-nav">
         <a href="#" class="logo">
           <img src="./images/logo.svg" alt="Sneakers" />
@@ -119,14 +109,18 @@
         <div class="cart">
           <div class="cart-add-delete">
             <button id="minus" class="dis">
-              <img src="images/icon-minus.svg" />
+              <i>Minus</i>
+              <img src="images/icon-minus.svg" alt="icon-plus" />
             </button>
             <div id="cart-value">0</div>
-            <button id="plus"><img src="images/icon-plus.svg" /></button>
+            <button id="plus">
+              <i>Minus</i>
+              <img src="images/icon-plus.svg" alt="icon-plus" />
+            </button>
           </div>
           <!-- Cart Button -->
           <button id="cart-add-btn">
-            <img src="images/icon-cart2.svg" /> Add to cart
+            <img src="images/icon-cart2.svg" alt="icon-plus" /> Add to cart
           </button>
         </div>
       </section>
@@ -146,9 +140,11 @@
 
           <div class="NPbtn">
             <button id="pre">
+              <i>Previus</i>
               <img src="images/icon-previous.svg" alt="previus" />
             </button>
             <button id="nxt">
+              <i>Next</i>
               <img src="images/icon-next.svg" alt="next" />
             </button>
           </div>
@@ -178,7 +174,7 @@
         </div>
       </div>
     </div>
-
+    
     <footer>
       <p class="attribution">
         Challenge by
