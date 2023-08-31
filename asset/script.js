@@ -112,7 +112,7 @@ btnMins.addEventListener("click", () => {
 
     cartntf.innerHTML = cartV.innerHTML;
     cartSpan.innerHTML = cartV.innerHTML;
-    carTotal.innerHTML = "$" + cartSpan.innerHTML * 125;
+    carTotal.innerHTML = "$" + cartSpan.innerHTML * 125 + ".00";
   }
 });
 
