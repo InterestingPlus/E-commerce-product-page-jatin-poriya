@@ -497,5 +497,5 @@ footer a:hover {
 }
 
 button i {
-  display: none;
+  display: none !important;
 }
