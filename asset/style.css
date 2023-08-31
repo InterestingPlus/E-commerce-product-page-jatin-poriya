@@ -361,7 +361,7 @@ main .cart .cart-add-delete * {
 }
 main .cart #minus {
   width: 25%;
-  min-width: 35px;
+  min-width: 25px;
 }
 main .cart .dis {
   opacity: 0.3;
@@ -376,7 +376,7 @@ main .cart #cart-value {
 }
 main .cart #plus {
   width: 25%;
-  min-width: 35px;
+  min-width: 25px;
 }
 
 main .cart #cart-add-btn,
