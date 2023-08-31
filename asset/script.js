@@ -26,10 +26,12 @@ let nxt = document.getElementById("nxt");
 let imageindex = 0;
 
 heroImg.addEventListener("click", () => {
-  hWrapper.style.display = "block";
+  hWrapper.style.opacity = 1;
+  hWrapper.style.visibility = "visible";
 });
 closeimg.addEventListener("click", () => {
-  hWrapper.style.display = "none";
+  hWrapper.style.opacity = 0;
+  hWrapper.style.visibility = "hidden";
 });
 
 thumbnailDivs2.forEach((div, index) => {
