@@ -28,12 +28,10 @@ let imageindex = 0;
 heroImg.addEventListener("click", () => {
   hWrapper.style.opacity = 1;
   hWrapper.style.visibility = "visible";
-  hWrapper.style.scale = 1;
 });
 closeimg.addEventListener("click", () => {
   hWrapper.style.opacity = 0;
   hWrapper.style.visibility = "hidden";
-  hWrapper.style.scale = 0;
 });
 
 thumbnailDivs2.forEach((div, index) => {
