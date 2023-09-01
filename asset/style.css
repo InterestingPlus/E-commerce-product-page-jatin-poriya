@@ -413,7 +413,6 @@ main .cart #cart-add-btn:hover {
 .hero-wrapper {
   opacity: 0;
   visibility: hidden;
-  scale: 0;
   transition: 0.2s all;
 }
 .hero-wrapper1 {
