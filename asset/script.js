@@ -192,7 +192,7 @@ let sidebar = document.querySelector(".sidebar");
 menu.addEventListener("click", () => {
   sidebar.classList.add("show");
   cartSection.classList.remove("active");
-  document.querySelector(".sidebar ul li a").focus();
+  document.querySelectorAll(".sidebar ul li a")[0].focus();
 });
 clsMenu.addEventListener("click", () => {
   sidebar.classList.remove("show");
