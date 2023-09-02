@@ -14,22 +14,16 @@
   --Black-75: hsl(0, 0%, 0%);
 }
 
-#output {
-  max-height: 900px;
-}
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Kumbh Sans", sans-serif;
   transition: all 0.3s ease-in-out;
+  scroll-behaviour: smooth;
 }
 *::before, *::after {
   transition: all 0.3s ease-in-out;
-}
-html {
-  scroll-behaviour: smooth;
 }
 body {
   /* width: 1440px; */
