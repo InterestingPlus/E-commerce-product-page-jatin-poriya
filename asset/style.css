@@ -25,8 +25,8 @@
   font-family: "Kumbh Sans", sans-serif;
   transition: all 0.3s ease-in-out;
 }
-a, a::before, a::after {
-  transition: all 0.3s ease !important;
+*::before, *::after {
+  transition: all 0.3s ease-in-out;
 }
 body {
   /* width: 1440px; */
