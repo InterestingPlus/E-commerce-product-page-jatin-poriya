@@ -604,6 +604,8 @@ footer p {
   font-size: 15px !important;
   color: var(--Grayish-blue);
   letter-spacing: 1px;
+  text-wrap: balance;
+  -webkit-text-wrap: balance;
 }
 footer a {
   color: var(--Orange) !important;
