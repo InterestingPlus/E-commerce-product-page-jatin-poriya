@@ -467,7 +467,7 @@ main .cart #cart-add-btn:hover {
 .hero-wrapper2 .hero-images {
   position: relative;
   height: 90dvh;
-  max-width: 600px;
+  max-width: 800px;
   aspect-ratio: 3/4;
 }
 .hero-wrapper2 .hero-images .close-img {
