@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
     <link
       rel="icon"
@@ -10,16 +11,19 @@
       sizes="32x32"
       href="./images/favicon-32x32.png" />
 
-    <!-- Style Sheet -->
     <link rel="stylesheet" href="asset/style.css" />
+    <link rel="stylesheet" href="asset/responsive.css" />
 
     <title>Frontend Mentor | E-commerce product page</title>
-
   </head>
   <body>
 
-<nav>
+    <!-- ================== -->
+    <nav>
       <div class="right-nav">
+        <div class="menu">
+          <img src="images/icon-menu.svg" alt="navbar" />
+        </div>
         <a href="#" class="logo">
           <img src="./images/logo.svg" alt="Sneakers" />
         </a>
@@ -89,6 +93,36 @@
           </div>
         </div>
       </div>
+
+      <!-- ====== Mobile Device Image Slider================ -->
+      <div id="slider-container">
+        <div id="slider">
+          <div class="slide">
+            <img src="images/image-product-1.jpg" alt="Image 1" />
+          </div>
+          <div class="slide">
+            <img src="images/image-product-2.jpg" alt="Image 2" />
+          </div>
+          <div class="slide">
+            <img src="images/image-product-3.jpg" alt="Image 3" />
+          </div>
+          <div class="slide">
+            <img src="images/image-product-4.jpg" alt="Image 4" />
+          </div>
+        </div>
+        <div class="NPbtn">
+          <button id="pre2">
+            <i>Previus</i>
+            <img src="images/icon-previous.svg" alt="previus" />
+          </button>
+          <button id="nxt2">
+            <i>Next</i>
+            <img src="images/icon-next.svg" alt="next" />
+          </button>
+        </div>
+      </div>
+
+      <!-- ============= Main Section ================ -->
       <section>
         <h3>Sneaker Company</h3>
         <h1>Fall Limited Edition Sneakers</h1>
@@ -126,6 +160,7 @@
       </section>
     </main>
 
+    <!-- ====== Light Box ====== -->
     <div class="hero-wrapper">
       <div class="hero-wrapper1"></div>
       <div class="hero-wrapper2">
@@ -174,7 +209,26 @@
         </div>
       </div>
     </div>
-    
+
+    <!-- ======== SideBar ====== -->
+    <div class="sidebar">
+      <div class="sidebar-back"></div>
+      <!-- ==== Wrapper -->
+      <div class="sidebar-wrapper">
+        <div class="close-btn">
+          <img src="images/icon-close.svg" alt="close-btn" />
+        </div>
+        <ul>
+          <li><a href="#"> Collections </a></li>
+          <li><a href="#"> Men </a></li>
+          <li><a href="#"> Women </a></li>
+          <li><a href="#"> About </a></li>
+          <li><a href="#"> Contact </a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- === Footer === -->
     <footer>
       <p class="attribution">
         Challenge by
