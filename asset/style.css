@@ -26,6 +26,7 @@
   transition: all 0.3s ease-in-out;
 }
 body {
+  /* width: 1440px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -569,7 +570,7 @@ main .cart #cart-add-btn:hover {
   width: 5px;
   height: 100%;
   background: var(--Orange);
-  scale: 0;
+  transform: scale(0);
 }
 .sidebar ul li a:hover,
 .sidebar ul li a:focus {
@@ -577,7 +578,7 @@ main .cart #cart-add-btn:hover {
 }
 .sidebar ul li a:hover::before,
 .sidebar ul li a:focus::before {
-  scale: 1;
+  transform: scale(1);
 }
 .sidebar.show {
   opacity: 1;
